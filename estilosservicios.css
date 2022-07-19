@@ -1,0 +1,162 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+header{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header .i{
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.barra{
+    text-align: center;
+}
+.barra ul li{
+    list-style: none;
+}
+.barra ul li{
+    display: inline-block;
+}
+.barra ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+footer{
+    background-color: black;
+    min-height: 50px;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+footer p{
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+    color: #fff;
+    margin-bottom: 20px;
+}
+footer i{
+    font-size: 20px;
+    color: gray;
+    letter-spacing: 20px;
+}
+.whatsapp{
+    height: 50px;
+    width: 50px;
+    background-color: green;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    text-align: center;
+    font-size: 25px;
+    line-height: 40px;
+    color: #fff;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 5px #fff;
+}
+.titulo{
+    width: 100%;
+    height: auto;
+    background-color: rgb(220, 220, 220);
+    text-align: center;
+    padding: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+}
+.servicios{
+    width: 100%;
+    height: auto;
+    background-color: rgb(220, 220, 220);
+    padding: 20px;
+}
+
+.item{
+    height: 200px;
+    margin: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  
+    
+}
+
+.item:hover{
+    transform: scale(1.05);
+    transition: all 0.9s;
+}
+
+.item1{
+    background-image: url(img/diseñograf.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item2{
+    font-family: 'Oswald', sans-serif;
+    background-color: rgb(56, 56, 56);
+    color: #fff;
+    font-size: 35px;
+    text-align: center;
+}
+
+.item3{
+    background-image: url(img/diseñosoft.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item4{
+    font-family: 'Oswald', sans-serif;
+    background-color: rgb(56, 56, 56);
+    color: #fff;
+    font-size: 35px;
+    text-align: center;
+}
+
+.item5{
+    background-image: url(img/apps.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item6{
+    font-family: 'Oswald', sans-serif;
+    background-color: rgb(56, 56, 56);
+    color: #fff;
+    font-size: 35px;
+    text-align: center;
+}
+
+@media only screen and (min-width:600px){
+    .servicios{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
