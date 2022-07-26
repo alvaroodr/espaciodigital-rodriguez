@@ -10,54 +10,15 @@ html{
     scroll-behavior: smooth;
 }
 header{
-    height: 80px;
-    width: 100%;
-    background-color: black;
-    color: #fff;
-    display: flex;
-    justify-content: space-between;
-    font-size: 30px;
-    padding: 20px;
+   
+    font-size: 20px;
     font-family: 'Oswald', sans-serif;
 }
 
-header .i{
-    color: #fff;
-    cursor: pointer;
-}
-
-
-.barra{
-    text-align: center;
-}
-.barra ul li{
-    list-style: none;
-}
-.barra ul li{
-    display: inline-block;
-}
-.barra ul li a{
-    text-decoration: none;
-    color: white;
-    font-size: 15px;
-    padding: 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-
-main{
-    background-image: url(img/fondo.jpg);
-    background-size: cover;
-    background-position: center;
-    height: calc(100vh - 80px);
-    width: 100%;
-}
 .call{
     color: #fff;
-    width: 50%;
-    float: left;
     background-color: rgba(0, 0, 0, 0.53);
-    padding: 20px;
+    padding: 30px;
     font-family: 'Oswald', sans-serif;
     margin-top: 25px;
     margin-left: 25px;

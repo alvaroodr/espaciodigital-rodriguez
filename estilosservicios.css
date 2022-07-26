@@ -11,41 +11,12 @@
 html{
     scroll-behavior: smooth;
 }
+
 header{
-    height: 80px;
-    width: 100%;
-    background-color: black;
-    color: #fff;
-    display: flex;
-    justify-content: space-between;
-    font-size: 30px;
-    padding: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
 }
-
-header .i{
-    color: #fff;
-    cursor: pointer;
-}
-
-
-.barra{
-    text-align: center;
-}
-.barra ul li{
-    list-style: none;
-}
-.barra ul li{
-    display: inline-block;
-}
-.barra ul li a{
-    text-decoration: none;
-    color: white;
-    font-size: 15px;
-    padding: 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
 
 footer{
     background-color: black;
